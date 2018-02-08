@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+.game {
+    width: 800px;
+    height: 800px;
+}
+.floatt{
+    float:left;
+    margin-right: 2rem;
+}
+.leftinfo {
+    width: 13%;
+    height: 100%;
+    float: left;
+    background-color: chocolate;
+    font-size: 25px;
+    text-align: center;
+}
+#pole {
+    
+    height: 80%;
+    background-color: chartreuse;
+}
+.cursor{
+    cursor: pointer;
+}
+#control{
+    
+    font-size: 28px;
+    background-color: brown;
+    width:100%;
+    height: 20%;
+    
+}
+#zamok{
+    height: 70px;
+    width: 80px;
+    position: relative;
+    left: 500px;
+    top: 100px;
+    background-color: chartreuse;
+    background-image: url(../image/Zamok.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#kazarma{
+    height: 70px;
+    width: 80px;
+    position: relative;
+    left: 300px;
+    top: 160px;
+     background-color: chartreuse;
+    background-image: url(../image/Kazarma.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#selo{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 700px;
+    top: 200px;
+    background-color: black;
+}
+#resurs{
+    height: 40px;
+    width: 40px;
+    position: relative;
+    left: 180px;
+    top: 411px;
+    background-color: black;
+}
+#army{
+    
+    font-size: 15;
+    text-align: center;
+    height: 90%;
+    width: 20%;
+    float: left;
+    margin-left: 1%;
+    margin-top: 1%;
+    background-color: aliceblue;
+}
+#map{
+    height: 40px;
+    width: 80%;
+    background-color: green;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#vilag0{
+    background-color: aliceblue;
+    position: relative;
+    left: 150px;
+    top: 47px;
+}
+#vilag1{
+    background-color:#000;
+    position: relative;
+    left: 600px;
+}
+#vilag2{
+    background-color:#000;
+    position: relative;
+    left: 600px;
+    top: 370px;
+}
+#vilag3{
+    background-color:#000;
+    position: relative;
+    left: 150px;
+    top: 416px;
+}
+#control p{
+    margin: 2px;
+}
+#menuAtaka{
+    font-size: 18px;
+}
+table, td {
+    border: 1px solid #fff;
+    border-spacing: inherit;
+    width: 115px;
+}

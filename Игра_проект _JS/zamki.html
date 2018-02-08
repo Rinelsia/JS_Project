@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+   <canvas id="drawing" width="800" height="800" >Здесь будет поле для игры</canvas>
+   
+   <script>
+       var drawing = document.getElementById("drawing");
+       if (drawing.getContext){
+           var context = drawing.getContext("2d");
+           context.strokeStyle = "red";
+           // синий квадрат
+           context.fillStyle = "green";
+           context.fillRect(0, 0, 800, 800);
+           //Синий полупрозрачный
+           context.fillStyle = "rgba(0, 0, 255, 0.5)";
+           context.fillRect(30, 350, 50, 50);
+           //
+           context.fillStyle = "rgba(60, 40, 40, 1)";
+           context.fillRect(720, 30, 50, 50);
+           //
+           context.fillStyle = "rgba(150, 100, 30, 1)";          
+           context.fillRect(720, 720, 50, 50);
+           
+       }
+   </script>
+    
+</body>
+</html>

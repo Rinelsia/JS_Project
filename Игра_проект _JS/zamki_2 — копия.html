@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="game">
+        <div class="leftinfo"></div>
+        <div class="pole">
+            <div id="zamok"></div>
+            <div class="kazarma"></div>
+            <div class="selo"></div>
+            <div class="resurs"></div>
+        </div>
+        <div id="control"></div>
+    </div>
+    <script>
+        var control=document.getElementById("control");
+        var zamok = document.getElementById("zamok")
+        var textZamok = 'Текст описания Уровень';
+        var booMen = false;
+        var strMenuZamok='';
+        function clickMenuControl (event){
+//            if (booMen = false){
+                for (var i=0; i<4; i++){
+                    strMenuZamok += "<p>"+textZamok+"<p id='ur"+i+"'>0</p>"+
+                        "<button onclick='func"+i+"()'>|^|</button>"
+                        "</p>";
+                    control.innerHTML = strMenuZamok;
+                }
+//            }
+        }
+       
+        zamok.addEventListener("click", clickMenuControl, true);
+    </script>
+</body>
+</html>
